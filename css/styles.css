@@ -363,9 +363,10 @@ ol {
 
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
   color: var(--accent-color);
 }
+
 .clients-icon {
   fill: currentColor;
 }
@@ -417,6 +418,50 @@ ol {
 .address-tel:focus {
   color: var(--accent-color);
 }
+
+.footerflex {
+  align-items: baseline;
+  display: flex;
+}
+
+.footer-social {
+  padding-left: 70px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--secondary-background-color);
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--secondary-background-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-color);
+}
+
 /*---------------Стили Портфолио---------------*/
 
 .projects-list {
