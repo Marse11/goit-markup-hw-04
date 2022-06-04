@@ -10,6 +10,7 @@
   --secondary-accent-background-color: #f5f4fa;
   --header-border-color: #ececec;
   --portfolio-border-color: #eeeeee;
+  --social-icon-color: #afb1b8;
 }
 
 body {
@@ -227,9 +228,6 @@ ol {
   margin-bottom: 30px;
 }
 
-.benefits-icon {
-}
-
 .benefits-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -312,6 +310,37 @@ ol {
   margin-right: 30px;
 }
 
+.team-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--secondary-background-color);
+  color: var(--social-icon-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-background-color);
+}
+
+.social-icon {
+  fill: currentColor;
+}
 /*------------Footer---------*/
 
 .footer {
